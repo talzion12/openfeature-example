@@ -1,7 +1,6 @@
 {
   "name": "openfeature",
   "version": "1.0.0",
-  "type": "module",
   "main": "src/main.ts",
   "author": "Tal Zion <talzion12@gmail.com>",
   "license": "MIT",

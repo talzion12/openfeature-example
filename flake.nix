@@ -7,14 +7,10 @@
       let 
         pkgs = nixpkgs.legacyPackages.${system};
         nodejs = pkgs.nodejs-16_x;
-        yarn = pkgs.yarn.override {
-          nodejs = nodejs;
-        };
       in rec {
         devShell = pkgs.mkShell {
           buildInputs = [
             nodejs
-            yarn
           ];
         };
       }
